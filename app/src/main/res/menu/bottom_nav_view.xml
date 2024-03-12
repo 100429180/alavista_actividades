@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/mi_nido_item"
+            android:icon="@drawable/mi_nido"
+            android:title="Mi nido" />
+        <item
+            android:id="@+id/pajaroteca_item"
+            android:icon="@drawable/pajaroteca"
+            android:title="Pajaroteca" />
+        <item
+            android:id="@+id/scanner_item"
+            android:icon="@drawable/scanner"
+            android:title="Scanner" />
+    <item
+        android:id="@+id/mapa_item"
+        android:icon="@drawable/mapa"
+        android:title="Mapa" />
+
+</menu>

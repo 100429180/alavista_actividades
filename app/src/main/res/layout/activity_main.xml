@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- Logo -->
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/logo_alavista" />
+
+        <!-- Botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoImageView"
+            android:orientation="vertical">
+
+            <!-- Botón 1 -->
+            <Button
+                android:id="@+id/button_miNido"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/blue_nav"
+                android:textColor="@color/black"
+                android:text="MI NIDO"
+                android:onClick="button_miNido"/>
+
+            <!-- Botón 2 -->
+            <Button
+                android:id="@+id/button_pajaroteca"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/blue_nav"
+                android:textColor="@color/black"
+                android:text="PAJAROTECA"
+                android:onClick="button_pajaroteca"/>
+
+            <!-- Botón 3 -->
+            <Button
+                android:id="@+id/button_scanner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/blue_nav"
+                android:textColor="@color/black"
+                android:text="SCANNER"
+                android:onClick="button_scanner"/>
+
+            <!-- Botón 4 -->
+            <Button
+                android:id="@+id/button_mapa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/blue_nav"
+                android:textColor="@color/black"
+                android:text="MAPA"
+                android:onClick="button_mapa"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
